@@ -153,3 +153,8 @@ cython_debug/
 
 # VScode
 .vscode/
+test*.ipynb
+
+# Model and prediction
+src/models/
+src/prediction.csv
