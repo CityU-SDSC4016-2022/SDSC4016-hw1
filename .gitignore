@@ -158,3 +158,4 @@ test*.ipynb
 # Model and prediction
 src/models/
 src/prediction.csv
+src/Baseline.ipynb
