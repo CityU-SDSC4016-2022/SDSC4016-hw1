@@ -1,0 +1,48 @@
+Batch Size:
+
+batch size 50  .85278
+batch size 100 .85134 **
+batch size 200 #try with diff settings before but worst than 100 when compare
+
+
+Number of Selected Features:
+
+feat 10 .87227
+feat 15 .86369
+feat 20 .86158
+feat 23 .85781
+feat 26 .85134 **
+feat 29 .89945
+
+
+Mid Layer Size:
+
+hdim 26 .86450
+hdim 39 .86655
+hdim 42 .85742
+hdim 45 .86378
+hdim 47 .85134 **
+hdim 52 .86034
+
+
+Activation Function Compare:
+
+relu      .85134 **
+LeakyReLU .85441
+relu6     .
+elu       .
+
+
+Activation Extra:
+
+relu only      .85134  **
+relu + norm1d  1.18196
+relu + dropout .86391
+
+
+Todo:
+
+batch size 200, data lost, kind of
+relu6 elu
+lu with norm and/or dropout
+mid layer size, not linear at all, have to try one by one if have time
