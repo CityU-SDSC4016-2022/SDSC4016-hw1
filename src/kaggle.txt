@@ -2,7 +2,7 @@ Batch Size:
 
 batch size 50  .85278
 batch size 100 .85134 **
-batch size 200 #try with diff settings before but worst than 100 when compare
+batch size 200 .86139
 
 
 Number of Selected Features:
@@ -28,9 +28,11 @@ hdim 52 .86034
 Activation Function Compare:
 
 relu      .85134 **
+rrelu     .86596
 LeakyReLU .85441
-relu6     .
-elu       .
+relu6     1.32248
+elu       .85750
+selu      .86277
 
 
 Activation Extra:
@@ -42,7 +44,5 @@ relu + dropout .86391
 
 Todo:
 
-batch size 200, data lost, kind of
-relu6 elu
 lu with norm and/or dropout
 mid layer size, not linear at all, have to try one by one if have time
