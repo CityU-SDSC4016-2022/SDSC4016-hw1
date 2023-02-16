@@ -8,11 +8,22 @@ batch size 200 .86139
 Number of Selected Features:
 
 feat 10 .87227
+feat 14 .86159
 feat 15 .86369
 feat 20 .86158
 feat 23 .85781
 feat 26 .85134 **
 feat 29 .89945
+
+Normalized Feature:
+
+norm 3.19961
+
+
+Train Dev split:
+
+9:1 .85134 **
+8:2 .88327
 
 
 Mid Layer Size:
