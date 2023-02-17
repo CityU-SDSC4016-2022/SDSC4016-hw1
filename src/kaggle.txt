@@ -10,6 +10,7 @@ Number of Selected Features:
 feat 10 .87227
 feat 14 .86159
 feat 15 .86369
+feat 17 .85849
 feat 20 .86158
 feat 23 .85781
 feat 26 .85134 **
@@ -31,6 +32,7 @@ Mid Layer Size:
 hdim 26 .86450
 hdim 39 .86655
 hdim 42 .85742
+hdim 44 .85893
 hdim 45 .86378
 hdim 47 .85134 **
 hdim 52 .86034
@@ -44,16 +46,17 @@ LeakyReLU .85441
 relu6     1.32248
 elu       .85750
 selu      .86277
+silu      .86135
 
 
 Activation Extra:
 
 relu only      .85134  **
 relu + norm1d  1.18196
-relu + dropout .86391
+relu + do 0.1  .86391
+relu + do 0.2  .89644
 
 
 Todo:
 
-lu with norm and/or dropout
 mid layer size, not linear at all, have to try one by one if have time
