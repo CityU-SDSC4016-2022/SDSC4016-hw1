@@ -1,4 +1,4 @@
-# Data set
+# Data set - HW1
 
 ## Column Name with IDs
 
@@ -115,3 +115,8 @@
 ## Todo
 
 - Mid layer size
+
+## Final Configuration (Score .8513)
+
+- feat 23
+- hdim 40

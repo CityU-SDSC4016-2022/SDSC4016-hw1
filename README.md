@@ -40,3 +40,23 @@ mamba install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvi
 mamba install -c conda-forge Jupyter ipykernel
 mamba install -c conda-forge pandas numpy seaborn matplotlib scikit-learn
 ```
+
+### Code
+
+[Weak Baseline](src/Baseline.ipynb)
+
+[Strong Baseline](src/Modified.ipynb)
+
+### Dataset
+
+[Training set](data/HW1.train.csv)
+
+[Testing set](data/HW1.test.csv)
+
+### Tested Result on Kaggle
+
+[Results on Kaggle](md/kaggle.md)
+
+### Final Score
+
+- 0.8513
