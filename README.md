@@ -57,6 +57,6 @@ mamba install -c conda-forge pandas numpy seaborn matplotlib scikit-learn
 
 [Results on Kaggle](md/kaggle.md)
 
-### Final Score
+### Final Score (Strong Baseline)
 
 - 0.8513
