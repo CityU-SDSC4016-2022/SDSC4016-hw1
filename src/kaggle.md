@@ -112,10 +112,6 @@
 - relu + do 0.1  .86391
 - relu + do 0.2  .89644
 
-## NTU Data set results
-
-- All same setting with the pervios best result 0.84841
-
 ## Todo
 
 - Mid layer size
