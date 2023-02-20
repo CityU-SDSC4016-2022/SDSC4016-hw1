@@ -45,7 +45,7 @@ mamba install -c conda-forge pandas numpy seaborn matplotlib scikit-learn
 
 [Weak Baseline](src/Baseline.ipynb)
 
-[Strong Baseline](src/Modified.ipynb)
+[Strong Baseline](src/Modified.Private.ipynb)
 
 ### Dataset
 
@@ -59,4 +59,5 @@ mamba install -c conda-forge pandas numpy seaborn matplotlib scikit-learn
 
 ### Final Score (Strong Baseline)
 
-- 0.8513
+- Public: 0.85156
+- Private: 0.89874
