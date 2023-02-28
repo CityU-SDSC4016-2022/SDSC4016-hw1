@@ -59,5 +59,5 @@ mamba install -c conda-forge pandas numpy seaborn matplotlib scikit-learn
 
 ### Final Score (Strong Baseline)
 
-- Public: 0.85156
-- Private: 0.89874
+- Public: Personal Best - 0.85156 vs Given Answer - 0.85584
+- Private: Personal Best - 0.89874 vs Given Answer - 0.91165
